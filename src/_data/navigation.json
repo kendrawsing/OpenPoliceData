@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "text": "Open Police Data Dashboard",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "About",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "Analysis",
+      "url": "/analysis",
+      "external": false
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/hankchizljaw/hylia",
+      "external": true
+    },
+    {
+      "text": "Contact and Submit Data",
+      "url": "/contact",
+      "external": false
+    }
+  ]
+}
