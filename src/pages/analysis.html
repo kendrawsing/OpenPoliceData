@@ -1,0 +1,286 @@
+---
+title: 'Dataset Analysis'
+permalink: '/analysis/index.html'
+layout: 'layouts/page.njk'
+---
+
+<html>
+  <head>
+
+	<!-- echarts core js -->
+	<script src='/js/echarts.min.js'></script>
+
+	<style>
+	html {
+	  font-size: 14px;
+	}
+	@media (min-width: 768px) {
+	  html {
+		font-size: 16px;
+	  }
+	}
+
+	.container {
+	  max-width: 960px;
+	}
+
+	</style>
+
+	<script>
+
+	function draw_pic_2_1() {
+
+		var dom = document.getElementById("pic_2_1");
+		var myChart = echarts.init(dom);
+		var app = {};
+
+		var option;
+		option = {
+			legend: {
+				orient: 'horizontal',
+				left: 'center',
+				top: 'bottom',
+			},
+			xAxis: {
+				type: 'category',
+				data: ['0', '1', '2', '3', '4']
+			},
+			yAxis: {
+				type: 'value'
+			},
+			series: [{
+				name: 'Num',
+				data: [126, 19, 14, 8, 2],
+				type: 'bar',
+				itemStyle: {
+					normal: {
+						label: {
+							show: true,
+							position: 'top', 
+							textStyle: { 
+								color: 'black',
+								fontSize: 14
+							}
+						}
+					}
+				},
+			}]
+		};
+
+
+		if (option && typeof option === 'object') {
+			myChart.setOption(option);
+		}
+
+	}
+
+	function draw_pic_2_2() {
+
+		var dom = document.getElementById("pic_2_2");
+		var myChart = echarts.init(dom);
+		var app = {};
+
+		var option;
+		option = {
+
+			legend: {
+				orient: 'horizontal',
+				left: 'center',
+				top: 'bottom',
+			},
+
+			series: [
+				{
+					type: 'pie',
+					radius: '60%',
+					data: [
+						{value: 126, name: '0'},
+						{value: 19, name: '1'},
+						{value: 14, name: '2'},
+						{value: 8, name: '3'},
+						{value: 2, name: '4'}
+					],
+					emphasis: {
+						itemStyle: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					label : {
+						normal : {
+							formatter: function(data) {
+								return data.name + "(" + data.percent.toFixed(0) + "%)";
+							},
+							textStyle : {
+								fontWeight : 'normal',
+								fontSize : 14
+							}
+						}
+					},
+				}
+			]
+			
+		};
+
+
+		if (option && typeof option === 'object') {
+			myChart.setOption(option);
+		}
+
+	}
+
+	function draw_pic_3_1() {
+
+		var dom = document.getElementById("pic_3_1");
+		var myChart = echarts.init(dom);
+		var app = {};
+
+		var option;
+		option = {
+			legend: {
+				orient: 'horizontal',
+				left: 'center',
+				top: 'bottom',
+			},
+			yAxis: {
+				type: 'category',
+				data: ['Force Demographics', 'Officer Complaints', 
+					'Stop and Frisk', 'Traffic stops', 'Use of Force']
+			},
+			xAxis: {
+				type: 'value'
+			},
+			grid: {
+				left: 125,
+			},
+			series: [{
+				name: 'Num',
+				data: [10, 12, 11, 16, 27],
+				type: 'bar',
+				itemStyle: {
+					normal: {
+						label: {
+							show: true,
+							position: 'right', 
+							textStyle: { 
+								color: 'black',
+								fontSize: 14
+							}
+						}
+					}
+				},
+			}]
+		};
+
+
+		if (option && typeof option === 'object') {
+			myChart.setOption(option);
+		}
+
+	}
+
+	function draw_pic_3_2() {
+
+		var dom = document.getElementById("pic_3_2");
+		var myChart = echarts.init(dom);
+		var app = {};
+
+		var option;
+		option = {
+
+			legend: {
+				orient: 'horizontal',
+				left: 'center',
+				top: 'bottom',
+			},
+
+			series: [
+				{
+					type: 'pie',
+					radius: '50%',
+					data: [
+						{value: 10, name: 'Force Demographics'},
+						{value: 12, name: 'Officer Complaints'},
+						{value: 11, name: 'Stop and Frisk'},
+						{value: 16, name: 'Traffic stops'},
+						{value: 27, name: 'Use of Force'}
+					],
+					emphasis: {
+						itemStyle: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					label : {
+						normal : {
+							textStyle : {
+								fontWeight : 'normal',
+								fontSize : 12
+							},
+							formatter: function(data) {
+								return data.name + "\n" + data.percent.toFixed(0) + "%";
+							},
+						}
+					},
+				}
+			]
+			
+		};
+
+
+		if (option && typeof option === 'object') {
+			myChart.setOption(option);
+		}
+
+	}
+
+
+	window.onload = function() {
+		draw_pic_2_1();
+		draw_pic_2_2();
+		draw_pic_3_1();
+		draw_pic_3_2();
+	};
+
+	</script>
+
+
+  </head>
+  <body>
+
+
+<div class="container">
+	<p class='lead'>The five types of police datasets were chosen to be able to provide context for police accountability.</p>
+
+	<p class='lead'>Among 169 cities, 127 don’t have any data available. This means that less than <b>one-third</b> of the cities are publishing any data related to their police force. None of the cities has all five types of data we are looking for. </p>
+	<div class="row">
+		<div class="col" id='pic_2_1' style='height:300px;'>
+		</div>
+		<div class="col" id='pic_2_2' style='height:300px;'>
+		</div>
+	</div>
+	<h5 class='text-center'>The number and percentage of how many types of police data that 169 cities have.</h5>
+	<p></p>
+
+
+	<p class='lead'>The largest proportion is Use of Force, which we believe is related to <b>high social attention</b> and <b>strict gun management</b>. Force Demographics accounts for the smallest proportion. We believe this is related to <b>privacy regulations</b> and <b>low social attention</b>. <b>Philadelphia</b> has four types of police data, without Force Demographics data. <b>New York</b> has four types of police data, without Traffic Stops data.</p>
+	<div class="row"> 
+		<div class="col" id='pic_3_1' style='height:300px;'>
+		</div>
+		<div class="col" id='pic_3_2' style='height:300px;'>
+		</div>
+	</div>
+	<h5 class='text-center'>The number and percentage of how many cities that each type of police data has</h5>
+	<p></p>
+
+	<p class='lead'>Our results show an even more dire picture of transparency in police data than expected. While we hypothesized that the five core police datasets would not be widely available, we did not expect many cities to have any police data at all. It is important to note that the scope of this project does not include crime data. Instead, we are focused on datasets that specifically describe police force members' behaviors, actions, and demographics.</p>
+	<p class='lead'>Our results have also provided us with some useful anecdotal information for our analyses. For example, cities that we expected to have robust police data because of their general leadership with data governance, like Portland, Oregon, lack the amount of data available. In Portland, police data are on a particular website from other open data and available in aggregate, PDF format. </p>
+	<p class='lead'>Other cities, such as Dallas, TX, are more open with their data, publishing every instance of use-of-force by police officers since 2013. However, Dallas only publishes the data in separate datasets and pages for each year, making it difficult to analyze data from multiple years. <b>This kind of complication is unfortunately not uncommon in open data practices, especially with police data. </b></p>
+
+
+</div>
+
+  </body>
+</html>
