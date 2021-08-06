@@ -1,66 +1,58 @@
 ---
-title: 'Open Police Data Dashboard'
+title: 'Dashboard'
 permalink: '/index.html'
 layout: 'layouts/page.njk'
 ---
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My first Vue app</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-<link href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.min.js"></script>
+  <link href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.min.js"></script>
 
 </head>
+
 <body>
-  <div id="app">
-    <table-component></table-component>
-  </div>
-  <div id="example-table"></div>
+  <div id="example-table" class="full-width"></div>
 </body>
 
 <script>
 
-  Vue.component('table-component', {
-  data: function () {
-    return {
-      count: 0
-    }
-  },
-  template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
-  })
-  var app = new Vue({ el: '#app' })
 
-   var tabledata = [
-  {
-    "City": "Chapel Hill",
-    "State": "NC",
-    "Dataset Type": "Force Demographics",
-    "Dataset Link": "https://opendata-townofchapelhill.hub.arcgis.com/datasets/police-employee-demographics",
-    "API endpoint": "https://opendata.arcgis.com/datasets/1922a028721540c5a2929b8a5828e982_0.csv",
-    "Portal Type": "ArcGIS"
-  },
-  {
-    "City": "Asheville",
-    "State": "NC",
-    "Dataset Type": "Use of Force",
-    "Dataset Link": "https://data-avl.opendata.arcgis.com/datasets/38bdfa06548a45bc9c89c7dddcfc5f31_0",
-    "API endpoint": "https://opendata.arcgis.com/datasets/38bdfa06548a45bc9c89c7dddcfc5f31_0.csv",
-    "Portal Type": "ArcGIS"
-  }
- ];
- //create Tabulator on DOM element with id "example-table"
-var table = new Tabulator("#example-table", {
-  height:205, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
-  data:tabledata, //assign data to table
-  layout:"fitColumns", //fit columns to width of table (optional)
-  columns:[ //Define Table Columns
-    {title:"City", field:"City", width:150},
-    {title:"State", field:"State", hozAlign:"left"},
-    {title:"Dataset Type", field:"Dataset Type"},
-    {title:"Dataset Link", field:"Dataset Link", formatter:"link", hozAlign:"right"},
-  ],
-});
-  </script>
+  var tabledata = []
+  var table;
+
+  fetch("/dataset/policedata.json")
+    .then((response) => {
+      return response.json()
+    })
+    .then((data) => { 
+      tabledata = data;
+      table = new Tabulator("#example-table", {
+        height: 400, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+        data: tabledata, //assign data to table
+        layout: "fitColumns", //fit columns to width of table (optional)
+        columns: [ //Define Table Columns
+          { title: "City", field: "City", width: 150 },
+          { title: "State", field: "State", hozAlign: "left", width: 70 },
+          { title: "Dataset Type", field: "Dataset Type", width: 200 },
+          { title: "Dataset Link", field: "Dataset Link", formatter: "link", hozAlign: "left" },
+        ],
+      });
+     })
+
+  //create Tabulator on DOM element with id "example-table"
+</script>
+
+<style>
+  
+.full-width {
+  width: 60vw;
+  margin-left: 30%;
+  transform: translateX(-30%);
+}
+</style>
+
 </html>

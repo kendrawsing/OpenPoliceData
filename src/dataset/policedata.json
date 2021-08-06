@@ -1,0 +1,730 @@
+[
+  {
+    "City": "Chapel Hill",
+    "State": "NC",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://opendata-townofchapelhill.hub.arcgis.com/datasets/police-employee-demographics",
+    "API endpoint": "https://opendata.arcgis.com/datasets/1922a028721540c5a2929b8a5828e982_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Asheville",
+    "State": "NC",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data-avl.opendata.arcgis.com/datasets/38bdfa06548a45bc9c89c7dddcfc5f31_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/38bdfa06548a45bc9c89c7dddcfc5f31_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Asheville",
+    "State": "NC",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data-avl.opendata.arcgis.com/datasets/cfae11db231548cb952f273d07f95049?geometry=-83.576%2C35.422%2C-81.490%2C35.813&layer=0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/cfae11db231548cb952f273d07f95049_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Austin",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.austintexas.gov/Public-Safety/Officer-Involved-Shootings-2008-17-Officers/8mvp-v9jz",
+    "API endpoint": "https://data.austintexas.gov/resource/u2k2-n8ez.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Detroit",
+    "State": "MI",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.detroitmi.gov/datasets/dpd-citizen-complaints",
+    "API endpoint": "https://opendata.arcgis.com/datasets/39076d87eb6d49ce8424873e3acd0d4b_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Cincinnati",
+    "State": "OH",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://data.cincinnati-oh.gov/Safety/PDI-Police-Data-Initiative-Pedestrian-Stops/jx3x-rh6i",
+    "API endpoint": "https://data.cincinnati-oh.gov/resource/jx3x-rh6i.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Cincinnati",
+    "State": "OH",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.cincinnati-oh.gov/Safety/PDI-Police-Data-Initiative-Use-of-Force/8us8-wi2w",
+    "API endpoint": "https://data.cincinnati-oh.gov/resource/8us8-wi2w.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Cincinnati",
+    "State": "OH",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.cincinnati-oh.gov/Safety/PDI-Police-Data-Initiative-Traffic-Stops-All-Subje/ktgf-4sjh",
+    "API endpoint": "https://data.cincinnati-oh.gov/resource/ktgf-4sjh.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Boulder",
+    "State": "CO",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://open-data.bouldercolorado.gov/datasets/f25944b7a60742ad9df80acfbdc41d7a_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/f25944b7a60742ad9df80acfbdc41d7a_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Boulder",
+    "State": "CO",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://open-data.bouldercolorado.gov/datasets/b485681308704f8c8d6dad3206e5a43d_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/b485681308704f8c8d6dad3206e5a43d_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Boulder",
+    "State": "CO",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://open-data.bouldercolorado.gov/datasets/1f850e90d27a4bf58d5b66405d59045f_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/1f850e90d27a4bf58d5b66405d59045f_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Portland",
+    "State": "OR",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://www.portlandoregon.gov/police/71673",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Portland",
+    "State": "OR",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.portlandoregon.gov/police/71673",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Philadelphia",
+    "State": "PA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://www.opendataphilly.org/dataset/vehicle-pedestrian-investigations",
+    "API endpoint": "https://cityofphiladelphia.github.io/carto-api-explorer/#car_ped_stops",
+    "Portal Type": "Carto"
+  },
+  {
+    "City": "Philadelphia",
+    "State": "PA",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://www.opendataphilly.org/dataset/vehicle-pedestrian-investigations",
+    "API endpoint": "https://cityofphiladelphia.github.io/carto-api-explorer/#car_ped_stops",
+    "Portal Type": "Carto"
+  },
+  {
+    "City": "Philadelphia",
+    "State": "PA",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://www.opendataphilly.org/dataset/police-complaints",
+    "API endpoint": "https://cityofphiladelphia.github.io/carto-api-explorer/#ppd_complaints",
+    "Portal Type": "Carto"
+  },
+  {
+    "City": "Philadelphia",
+    "State": "PA",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.opendataphilly.org/dataset/shooting-victims/resource/af2a6d15-234e-44de-83c7-dd23668ee496",
+    "API endpoint": "https://cityofphiladelphia.github.io/carto-api-explorer/#shootings",
+    "Portal Type": "Carto"
+  },
+  {
+    "City": "Greensboro",
+    "State": "NC",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.greensboro-nc.gov/datasets/566417dafe0640f79281f348b3f141ef/data?showData=true",
+    "API endpoint": "https://opendata.arcgis.com/datasets/566417dafe0640f79281f348b3f141ef_20.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Greensboro",
+    "State": "NC",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.greensboro-nc.gov/datasets/7b7a01af10734ab1b6a34888be003696?showData=true",
+    "API endpoint": "https://opendata.arcgis.com/datasets/7b7a01af10734ab1b6a34888be003696_21.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Greensboro",
+    "State": "NC",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.greensboro-nc.gov/datasets/1e94326de7f54464b30144442112054a/geoservice?showData=true",
+    "API endpoint": "https://opendata.arcgis.com/datasets/1e94326de7f54464b30144442112054a_16.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Lincoln",
+    "State": "NE",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://opendata.lincoln.ne.gov/datasets/lpd-use-of-control-2019-raw-data",
+    "API endpoint": "https://opendata.arcgis.com/datasets/98c004615dba46c5931f12ca4b9d0c57_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Lincoln",
+    "State": "NE",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://opendata.lincoln.ne.gov/datasets/lpd-traffic-stops-2019",
+    "API endpoint": "https://opendata.arcgis.com/datasets/f4bf4161d33744aabe674b438b4e5566_0.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "San Diego",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://data.sandiego.gov/datasets/police-ripa-stops/",
+    "API endpoint": "https://seshat.datasd.org/pd/ripa_stops_datasd.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "San Diego",
+    "State": "CA",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.sandiego.gov/datasets/police-vehicle-stops/",
+    "API endpoint": "https://seshat.datasd.org/pd/vehicle_stops_final_datasd_v1.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "New Orleans",
+    "State": "LA",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Use-of-Force-Incidents/9mnw-mbde",
+    "API endpoint": "https://data.nola.gov/resource/9mnw-mbde.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Evanston",
+    "State": "IL",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.cityofevanston.org/Police/Traffic-Stops-in-Evanston/bbbk-a8vu",
+    "API endpoint": "https://data.cityofevanston.org/resource/bbbk-a8vu.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Evanston",
+    "State": "IL",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.cityofevanston.org/Police/Evanston-Police-Department-Use-of-Force/62x8-q9xh",
+    "API endpoint": "https://data.cityofevanston.org/resource/62x8-q9xh.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Mesa",
+    "State": "AZ",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.mesaaz.gov/Police/Police-Employee-Staffing-Sworn-and-Civilian/bdtv-tbrq",
+    "API endpoint": "https://data.mesaaz.gov/resource/bdtv-tbrq.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Louisville",
+    "State": "KY",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.louisvilleky.gov/dataset/lmpd-employee-characteristics",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Louisville",
+    "State": "KY",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.louisvilleky.gov/dataset/lmpd-stops-data",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Louisville",
+    "State": "KY",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.louisvilleky.gov/dataset/officer-involved-shooting-and-statistical-analysis",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Dallas-Police-Officer-Involved-Shootings/4gmt-jyx2",
+    "API endpoint": "https://www.dallasopendata.com/resource/4gmt-jyx2.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2013/6gnu-avpf",
+    "API endpoint": "https://www.dallasopendata.com/resource/6gnu-avpf.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-2014-Response-to-Resistance/xiv3-e8g7",
+    "API endpoint": "https://www.dallasopendata.com/resource/xiv3-e8g7.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-2015-Response-to-Resistance/594v-2cnd",
+    "API endpoint": "https://www.dallasopendata.com/resource/594v-2cnd.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2016/99fn-pvaf",
+    "API endpoint": "https://www.dallasopendata.com/resource/99fn-pvaf.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2017/tsu5-ca6k",
+    "API endpoint": "https://www.dallasopendata.com/resource/tsu5-ca6k.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2018/33un-ry4j",
+    "API endpoint": "https://www.dallasopendata.com/resource/33un-ry4j.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Dallas",
+    "State": "TX",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.dallasopendata.com/Public-Safety/Police-Response-to-Resistance-2019/46zb-7qgj",
+    "API endpoint": "https://www.dallasopendata.com/resource/46zb-7qgj.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Phoenix",
+    "State": "AZ",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.phoenixopendata.com/dataset/officer-involved-shooting-incidents",
+    "API endpoint": "",
+    "Portal Type": "N/A"
+  },
+  {
+    "City": "Indianapolis",
+    "State": "IN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.indy.gov/datasets/impd-use-of-force",
+    "API endpoint": "https://opendata.arcgis.com/datasets/be9ec4331d0242c6994a256073be772f_16.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Indianapolis",
+    "State": "IN",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.indy.gov/datasets/impd-discipline",
+    "API endpoint": "https://opendata.arcgis.com/datasets/e19f689846e044ad884315450bb7d964_22.csv",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Charlotte",
+    "State": "NC",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.charlottenc.gov/datasets/officer-traffic-stops",
+    "API endpoint": "https://opendata.arcgis.com/datasets/67b28a8ee2d2489f93ccf386b0e2afe1_14.csv?outSR=%7B%22latestWkid%22%3A2264%2C%22wkid%22%3A102719%7D",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Charlotte",
+    "State": "NC",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.charlottenc.gov/datasets/cmpd-employee-demographics",
+    "API endpoint": "https://opendata.arcgis.com/datasets/7e4245a5214645559b6bea3364c7cfce_16.csv?outSR=%7B%22latestWkid%22%3A2264%2C%22wkid%22%3A102719%7D",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Charlotte",
+    "State": "NC",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.charlottenc.gov/datasets/cmpd-officer-involved-shootings-police-officers?geometry=-81.857%2C35.015%2C-79.771%2C35.408&orderBy=YR",
+    "API endpoint": "https://opendata.arcgis.com/datasets/a14932b0ef1f4381918962914303f1c0_13.csv?outSR=%7B%22latestWkid%22%3A2264%2C%22wkid%22%3A102719%7D",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Denver",
+    "State": "CO",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-denver-police-officer-involved-shootings",
+    "API endpoint": "https://www.denvergov.org/media/gis/DataCatalog/denver_police_officer_involved_shootings/csv/denver_police_officer_involved_shootings.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Denver",
+    "State": "CO",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-police-pedestrian-stops-and-vehicle-stops",
+    "API endpoint": "https://www.denvergov.org/media/gis/DataCatalog/police_pedestrian_stops_and_vehicle_stops/csv/police_pedestrian_stops_and_vehicle_stops.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Denver",
+    "State": "CO",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-police-pedestrian-stops-and-vehicle-stops",
+    "API endpoint": "https://www.denvergov.org/media/gis/DataCatalog/police_pedestrian_stops_and_vehicle_stops/csv/police_pedestrian_stops_and_vehicle_stops.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Tacoma",
+    "State": "WA",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.cityoftacoma.org/Public-Safety/Officer-Involved-Shooting/4zem-9yq6",
+    "API endpoint": "https://data.cityoftacoma.org/resource/4zem-9yq6.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Tacoma",
+    "State": "WA",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.cityoftacoma.org/Public-Safety/Complaint-Allegations-with-Findings/x46s-jtje",
+    "API endpoint": "https://data.cityoftacoma.org/Public-Safety/Complaint-Allegations-with-Findings/x46s-jtje",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Chattanooga",
+    "State": "TN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://www.chattadata.org/dataset/Use-of-Force-Per-Capita-by-Census-Tract/25q2-z332",
+    "API endpoint": "https://www.chattadata.org/api/views/y5qr-gke5/rows.csv?accessType=DOWNLOAD",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Chattanooga",
+    "State": "TN",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://www.chattadata.org/Public-Safety/Citizen-Complaint-Dispositions/s2hi-q95d",
+    "API endpoint": "https://www.chattadata.org/api/views/najs-wv89/rows.csv?accessType=DOWNLOAD",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Chicago",
+    "State": "IL",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.cityofchicago.org/Public-Safety/COPA-Cases-By-Involved-Officer-Dashboard/fn46-6mtw",
+    "API endpoint": "https://data.cityofchicago.org/api/views/ufxy-tgry/rows.csv?accessType=DOWNLOAD&bom=true&query=select+*",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Long Beach",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://datalb.longbeach.gov/datasets/7a06d90ad71e4342961b0252d7814b14_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/7a06d90ad71e4342961b0252d7814b14_0.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Long Beach",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://datalb.longbeach.gov/datasets/9a36bd8c5c1c46468757c67a3311710a_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/9a36bd8c5c1c46468757c67a3311710a_0.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Long Beach",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://datalb.longbeach.gov/datasets/f3542945e81d43ee96fa9b8a77582510_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/f3542945e81d43ee96fa9b8a77582510_0.gdb",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Long Beach",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://datalb.longbeach.gov/datasets/3d57257946ab46908440f0daa134043c_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/3d57257946ab46908440f0daa134043c_0.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Bloomington",
+    "State": "IN",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.bloomington.in.gov/dataset/bloomington-police-department-employee-demographics",
+    "API endpoint": "Different links from years",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Bloomington",
+    "State": "IN",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.bloomington.in.gov/dataset/citizen-complaints",
+    "API endpoint": "Different links from years",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Bloomington",
+    "State": "IN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.bloomington.in.gov/dataset/use-of-force-data",
+    "API endpoint": "Different links from years",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Los Angeles",
+    "State": "CA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://data.lacity.org/Public-Safety/Vehicle-and-Pedestrian-Stop-Data-2010-to-Present/ci25-wgt7",
+    "API endpoint": "https://data.lacity.org/resource/ci25-wgt7.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Los Angeles",
+    "State": "CA",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.lacity.org/Public-Safety/Vehicle-and-Pedestrian-Stop-Data-2010-to-Present/ci25-wgt7",
+    "API endpoint": "https://data.lacity.org/resource/ci25-wgt7.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Lansing",
+    "State": "MI",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data-lansing.opendata.arcgis.com/datasets/32b48df10c674a7aace77071046ba272_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/32b48df10c674a7aace77071046ba272_0.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Lansing",
+    "State": "MI",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data-lansing.opendata.arcgis.com/datasets/a868967f0f1b427db8575e391ce5f74c_0?geometry=-85.067%2C42.584%2C-84.024%2C42.761",
+    "API endpoint": "https://opendata.arcgis.com/datasets/a868967f0f1b427db8575e391ce5f74c_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Lansing",
+    "State": "MI",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data-lansing.opendata.arcgis.com/datasets/e7eb75c5e9d9490b809d08e4849b31d1_0",
+    "API endpoint": "https://opendata.arcgis.com/datasets/e7eb75c5e9d9490b809d08e4849b31d1_0.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Washington",
+    "State": "DC",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://opendata.dc.gov/datasets/stop-incidents",
+    "API endpoint": "https://opendata.arcgis.com/datasets/cc1b18f4c6954ae891d2e262b991b06a_41.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Washington",
+    "State": "DC",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://opendata.dc.gov/datasets/stop-incidents",
+    "API endpoint": "https://opendata.arcgis.com/datasets/cc1b18f4c6954ae891d2e262b991b06a_41.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Albany",
+    "State": "NY",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.albanyny.gov/Public-Safety/APD-Citizen-Complaints/s2gk-irhz",
+    "API endpoint": "https://data.albanyny.gov/Public-Safety/APD-Citizen-Complaints/s2gk-irhz",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Albany",
+    "State": "NY",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.albanyny.gov/Public-Safety/APD-Officer-Use-Of-Force-Incidents/hiwd-25w2",
+    "API endpoint": "https://data.albanyny.gov/resource/hiwd-25w2.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "South Bend",
+    "State": "IN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data-southbend.opendata.arcgis.com/datasets/police-use-of-force-incidents?geometry=-86.752%2C41.584%2C-85.709%2C41.764",
+    "API endpoint": "https://opendata.arcgis.com/datasets/3bc26b9f05a345ec906f1cc0c09060fc_2.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "South Bend",
+    "State": "IN",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data-southbend.opendata.arcgis.com/datasets/community-complaints-reported-to-sbpd",
+    "API endpoint": "https://opendata.arcgis.com/datasets/a4097198825e493a839ff83e8cbd56c3_1.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Hartford",
+    "State": "CT",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data.ct.gov/Public-Safety/Traffic-Stops-Racial-Profiling-Prohibition-Project/nahi-zqrt",
+    "API endpoint": "https://data.ct.gov/resource/nahi-zqrt.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Memphis",
+    "State": "TN",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.memphistn.gov/Public-Safety/Police-Headcount/iwk8-fxnz",
+    "API endpoint": "https://data.memphistn.gov/resource/iwk8-fxnz.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Seattle",
+    "State": "WA",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj",
+    "API endpoint": "https://data.seattle.gov/resource/ppi5-g2bj.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Seattle",
+    "State": "WA",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.seattle.gov/Public-Safety/Office-of-Police-Accountability-Complaints/99yi-dthu",
+    "API endpoint": "https://data.seattle.gov/resource/99yi-dthu.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Seattle",
+    "State": "WA",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8",
+    "API endpoint": "https://data.seattle.gov/resource/28ny-9ts8.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Saint Paul",
+    "State": "MN",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://information.stpaul.gov/Public-Safety/Traffic-Stop-Dataset/kkd6-vvns",
+    "API endpoint": "https://information.stpaul.gov/resource/kkd6-vvns.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Fayetteville",
+    "State": "NC",
+    "Dataset Type": "Traffic stops",
+    "Dataset Link": "https://data4-faync.opendata.arcgis.com/search?tags=Traffic%20Stops",
+    "API endpoint": "https://opendata.arcgis.com/api/v3/datasets/fd382c6e7a854f7da962ab66af9d0770_0/downloads/data?format=csv&spatialRefId=4326",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Minneapolis",
+    "State": "MN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://opendata.minneapolismn.gov/datasets/cityoflakes::police-use-of-force/about",
+    "API endpoint": "",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Minneapolis",
+    "State": "MN",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://opendata.minneapolismn.gov/datasets/cityoflakes::police-officer-involved-shootings/about",
+    "API endpoint": "",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Tucson",
+    "State": "AZ",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://gisdata.tucsonaz.gov/datasets/2b0260ab5a0f43f8a0caa90592564f62_36/explore",
+    "API endpoint": "https://opendata.arcgis.com/api/v3/datasets/2b0260ab5a0f43f8a0caa90592564f62_36/downloads/data?format=csv&spatialRefId=2868",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Tucson",
+    "State": "AZ",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://gisdata.tucsonaz.gov/datasets/abb29a901bfd4d63a8148e0b34d99c48_34/explore",
+    "API endpoint": "https://opendata.arcgis.com/api/v3/datasets/abb29a901bfd4d63a8148e0b34d99c48_34/downloads/data?format=csv&spatialRefId=2868",
+    "Portal Type": "ArcGIS"
+  },
+  {
+    "City": "Colorado Springs",
+    "State": "CO",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://policedata.coloradosprings.gov/Use-of-Force/Use-of-Force-Reports/ii9t-cvd6",
+    "API endpoint": "https://policedata.coloradosprings.gov/resource/ii9t-cvd6.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Colorado Springs",
+    "State": "CO",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://policedata.coloradosprings.gov/Employees/Demographics-of-Sworn-Officers/stu9-jwhy",
+    "API endpoint": "https://policedata.coloradosprings.gov/Employees/Demographics-of-Sworn-Officers/stu9-jwhy",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Orlando",
+    "State": "FL",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.cityoforlando.net/Orlando-Police/OPD-Officer-Involved-Shootings/6kz6-6c7n",
+    "API endpoint": "https://data.cityoforlando.net/resource/6kz6-6c7n.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Chandler",
+    "State": "AZ",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://chn-az.municipal.systems/sources/ee3cc4be-828d-4975-87f4-5a02c2ed3d85",
+    "API endpoint": "https://chn-az.municipal.systems/api",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "Rochester",
+    "State": "NY",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data-rpdny.opendata.arcgis.com/datasets/b57f1fc96d044f00ae9df541b2c2b4ea_0/explore",
+    "API endpoint": "https://opendata.arcgis.com/api/v3/datasets/b57f1fc96d044f00ae9df541b2c2b4ea_0/downloads/data?format=csv&spatialRefId=4326",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "New York",
+    "State": "NY",
+    "Dataset Type": "Stop and Frisk",
+    "Dataset Link": "https://data.cityofnewyork.us/Public-Safety/The-Stop-Question-and-Frisk-Data/ftxv-d5ix",
+    "API endpoint": "https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "New York",
+    "State": "NY",
+    "Dataset Type": "Use of Force",
+    "Dataset Link": "https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d",
+    "API endpoint": "https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "New York",
+    "State": "NY",
+    "Dataset Type": "Officer Complaints",
+    "Dataset Link": "https://data.cityofnewyork.us/Public-Safety/Civilian-Complaint-Review-Board-CCRB-Complaints-Re/63nx-cpi9",
+    "API endpoint": "https://data.cityofnewyork.us/resource/63nx-cpi9.csv",
+    "Portal Type": "Socrata"
+  },
+  {
+    "City": "New York",
+    "State": "NY",
+    "Dataset Type": "Force Demographics",
+    "Dataset Link": "https://data.cityofnewyork.us/Public-Safety/NYPD-Personnel-Demographics/5vr7-5fki",
+    "API endpoint": "https://data.cityofnewyork.us/resource/5vr7-5fki.csv",
+    "Portal Type": "Socrata"
+  }
+]

@@ -1,9 +1,9 @@
 {
   "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://hylia.website",
-  "authorEmail": "me@andy-bell.design",
+  "name": "Open Police Data Project",
+  "shortDesc": "The open police data dashboard is a capstone project at NYU CUSP created with project sponsor Results for America.",
+  "url": "https://openpolicedata.netlify.app/",
+  "authorEmail": "ks4038@nyu.edu",
   "authorHandle": "@hankchizljaw",
   "authorName": "Andy Bell",
   "enableThirdPartyComments": false,
